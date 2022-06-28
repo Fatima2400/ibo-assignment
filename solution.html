@@ -68,14 +68,7 @@ const getUniquePrducts = (arr) => {
 			obj[arr[i].productName].quantity += arr[i].quantity;
 		}  
     }
-	// arr.forEach((e) => {
-	// 	if (obj[e.productName] == undefined) {
-	// 		obj[e.productName] = e;
-	// 	} else {
-	// 		obj[e.productName].quantity += e.quantity;
-	// 	}
-	// });
-
+	
 	console.log(Object.values(obj));
 }
 
@@ -84,6 +77,6 @@ const getUniquePrducts = (arr) => {
 
 getUniquePrducts(listOfProducts);
 
-//console.log(unique);
+
  
 </script>
